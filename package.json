@@ -4,7 +4,7 @@
   "description": "A basic bootstrap for modern js tooling",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "babel-node src"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mattjbrent/js-tooling#readme",
   "dependencies": {
-    "color": "^2.0.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
