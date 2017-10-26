@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
-import Dog from './dog'
+console.log('hello world')
 
-const toby = new Dog('Toby')
-
-console.log(toby.bark())
+const hello = 'hello'
+console.log(`${hello} world`)
